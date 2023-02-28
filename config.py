@@ -11,6 +11,10 @@ class GlobalConfig(object): # ADD_TO_CONF_SYSTEM //DO NOT remove this comment//
     runner = 'efficient_parallel_runner'
     draw_mode = 'Img'  # 'Web','Native'
     logdir = './ZHECKPOINT/test/'
+
+    save_model = False
+    save_model_interval = 20000
+
     cfg_ready = True
     device = 'cuda'
     batch_size = 128
